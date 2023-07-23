@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+
+.col-nor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.row-nor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.topic-img {
+  height: 200px;
+  width: 90%;
+
+  border-radius: 10px;
+}
+.avatar-img {
+  height: 50px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 20px;
+}

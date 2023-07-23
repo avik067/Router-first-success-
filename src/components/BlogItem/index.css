@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+
+.link {
+  text-decoration: none;
+}
+
+.list-item {
+  margin: 20px;
+  border: 1px solid #8e8e8e;
+  border-radius: 10px;
+  padding: 20px;
+}
+.row-apart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row-nor {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.topic-img {
+  height: 200px;
+  width: 300px;
+  margin-right: 10px;
+}
+.avatar-img {
+  height: 50px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 20px;
+}
